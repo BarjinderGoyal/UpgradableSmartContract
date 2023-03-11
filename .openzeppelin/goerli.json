@@ -1,0 +1,206 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x77b6BCdc2044Dc1Ae5ea9647485f798ee10C4DEC",
+    "txHash": "0x52bc67a203fe1c211cbd47f9f89a088e09eb1790bcf84c5e39534308f20c8a19"
+  },
+  "proxies": [
+    {
+      "address": "0x5f69a9907BE14C618aeCb77C024AAbD6E1d6092b",
+      "txHash": "0x3699d2008e6721a012843d5eda66dcfe64e839bfeee751d3b4f1fbb6d6c726df",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "951ff729711f62d20cb89b4cd44bcf1105f75727a22d9ef7ac205aeb2d6fbb93": {
+      "address": "0x38A74F84CE8ac787fAd3AEf0881c860717397D1F",
+      "txHash": "0x7e2b5be07c332e5029faf16d4cafa7f37c1b0865d5723e89d25a57537ae78c3c",
+      "layout": {
+        "solcVersion": "0.8.6",
+        "storage": [
+          {
+            "label": "balanceOf",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:7"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:8"
+          },
+          {
+            "label": "tokenInCirculation",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:9"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:10"
+          },
+          {
+            "label": "version",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:11"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:12"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:13"
+          },
+          {
+            "label": "_version",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_string_storage",
+            "contract": "ERC20",
+            "src": "contracts\\ERC20.sol:14"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "7ae5424323ef12fb38de6c63808189f8b62a119fe3a19a2c393985f36a4a9318": {
+      "address": "0x651Dc332c36a591E890fd79eFF588971D165B260",
+      "txHash": "0x8868544496aea29dd5faf96c6085465792b98b5831e40f53ce8718999815fcf6",
+      "layout": {
+        "solcVersion": "0.8.6",
+        "storage": [
+          {
+            "label": "balanceOf",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:6"
+          },
+          {
+            "label": "allowance",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:7"
+          },
+          {
+            "label": "tokenInCirculation",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:8"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_address",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:9"
+          },
+          {
+            "label": "version",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_string_storage",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:10"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_string_storage",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:11"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_string_storage",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:12"
+          },
+          {
+            "label": "_version",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_string_storage",
+            "contract": "ERC20V2",
+            "src": "contracts\\ERC20V2.sol:13"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}

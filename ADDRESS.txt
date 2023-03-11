@@ -1,0 +1,18 @@
+//erc20 proxy address = 0x0158769549e44D4D78E76cd7B0145f1353dEd443
+//implimentaion Contract address = 0xca235dbb6c79062a2d658224e4d712699edb16f1
+
+erc20 proxy address = 0x5f69a9907BE14C618aeCb77C024AAbD6E1d6092b
+//implementation address=0x651dc332c36a591e890fd79eff588971d165b260
+implementation contract address= 0x38a74f84ce8ac787fad3aef0881c860717397d1f 
+Gnosis-Safe =0x6ABC8458f4336aD5C996624EBcb4e4Ced23789b3
+timeLock contract= 0x2616aF0Cfe61D143AcBb459A46d7ad160b5b72D0
+proxy admin=0x77b6BCdc2044Dc1Ae5ea9647485f798ee10C4DEC
+
+new implementation=0x651Dc332c36a591E890fd79eFF588971D165B260
+
+
+hexcode=0x99a88ec40000000000000000000000005f69a9907be14c618aecb77c024aabd6e1d6092b000000000000000000000000651dc332c36a591e890fd79eff588971d165b260
+
+
+
+etherscan implementation link = https://goerli.etherscan.io/address/0x38a74f84ce8ac787fad3aef0881c860717397d1f#code
